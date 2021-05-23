@@ -1,11 +1,11 @@
 {
-    "name": "Kudos 2 U",
-    "description": "App to give kudos to users that finish issues",
-    "key": "k2u",
+    "name": "Quabu Access",
+    "description": "App that creates a button that lets you access Quabu's web interesting sections.",
+    "key": "quacc",
     "baseUrl": "https://raw.githubusercontent.com/Jekzer/Quabu-Access/main/atlassian-connect.json",
     "vendor": {
         "name": "Quabu Solutions, sl",
-        "url": "http://example.com"
+        "url": "https://quabu.eu/"
     },
     "authentication": {
         "type": "none"
@@ -36,7 +36,7 @@
 					"type": "page"
 				},
 				"tooltip": {
-					"value": "Link"
+					"value": "E-sports news"
 				},
 				"icon": {
 					"width": 16,
@@ -44,7 +44,7 @@
 					"url": "/quabu_icon.png"
 				},
 				"name": {
-					"value": "Link"
+					"value": "E-sports news"
 				},
 				"key": "install"
 			}

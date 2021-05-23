@@ -1,0 +1,53 @@
+{
+    "name": "Kudos 2 U",
+    "description": "App to give kudos to users that finish issues",
+    "key": "k2u",
+    "baseUrl": "https://raw.githubusercontent.com/Jekzer/Quabu-Access/main/atlassian-connect.json",
+    "vendor": {
+        "name": "Quabu Solutions, sl",
+        "url": "http://example.com"
+    },
+    "authentication": {
+        "type": "none"
+    },
+    "apiVersion": 1,
+	"modules": {
+	"webSections": [
+		{
+			"key": "board-links",
+			"location": "jira.agile.board.tools",
+			"weight": 10,
+			"name": {
+			"value": "Quabu Access"
+			}
+		}
+	],
+		"webItems": [
+			{
+				"location": "board-links",
+				"weight": 200,
+				"styleClasses": [
+					"webitem",
+					"system-present-webitem"
+				],
+				"url": "https://quabu.eu/esports/",
+				"context": "product",
+				"target": {
+					"type": "page"
+				},
+				"tooltip": {
+					"value": "Link"
+				},
+				"icon": {
+					"width": 16,
+					"height": 16,
+					"url": "/quabu_icon.png"
+				},
+				"name": {
+					"value": "Link"
+				},
+				"key": "install"
+			}
+		]
+	}
+}

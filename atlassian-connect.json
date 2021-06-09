@@ -1,7 +1,7 @@
 {
     "name": "Quabu Access",
     "description": "App that creates a button that lets you access Quabu's web interesting sections.",
-    "key": "quacc",
+    "key": "Quacc",
     "baseUrl": "https://raw.githubusercontent.com/Jekzer/Quabu-Access/main/atlassian-connect.json",
     "vendor": {
         "name": "Quabu Solutions, sl",
